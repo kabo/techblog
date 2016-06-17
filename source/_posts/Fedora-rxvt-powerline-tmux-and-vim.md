@@ -85,6 +85,7 @@ In order to autostart into tmux  when you start rxvt, add these two lines at the
 OK, time to start rxvt
 ``` bash
 $ urxvt256c-ml
+# in the new rxvt that was just started, type this
 $ xrdb -load .Xresources
 $ tmux source-file .tmux.conf
 ```
