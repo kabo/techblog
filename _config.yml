@@ -68,4 +68,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: s3-simple
+  bucket: tech.kabo.kiwi
+  profile: s3fullaccess
+  region: ap-southeast-2
